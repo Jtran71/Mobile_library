@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Mobile_library" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Mobile_library" parent="Base.Theme.Mobile_library" />
+</resources>

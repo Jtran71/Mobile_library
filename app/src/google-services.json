@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777022218726",
+    "project_id": "mobile-library-968f2",
+    "storage_bucket": "mobile-library-968f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777022218726:android:0d4fbb5f22ce0d1d01f627",
+        "android_client_info": {
+          "package_name": "cs477.gmu.mobile_library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6a-Rg4Z9Vk1qUKD4QpUrBrVZfxZKGhjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivCover"
+            android:layout_width="80dp"
+            android:layout_height="104dp"
+            android:scaleType="centerCrop"
+            android:background="@color/light_gray"
+            android:src="@drawable/ic_book_cover_placeholder" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivCover"
+            android:layout_toRightOf="@id/ivCover"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Book Title"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivCover"
+            android:layout_toRightOf="@id/ivCover"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:text="Author Name"
+            android:textColor="@color/dark_gray"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivCover"
+            android:layout_toRightOf="@id/ivCover"
+            android:layout_below="@id/tvAuthor"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:text="0%"
+            android:textColor="@color/blue"
+            android:background="@color/progress_background"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp" />
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Delete book"
+            android:tint="@color/red" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
